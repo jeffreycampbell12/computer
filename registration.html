@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/jpg" href="images/e25275dbd00a1845a4f3d7070854e761.jpg">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTM, CSS, JavaScripts, best web developer, best graphic designer, best digital Marketing, computer training, douala, Cameroon, bonaberi">
+        <meta name="description" content="best web developer and graphic designer portfolio">
+        <meta name="author" content="timoh hope, douala">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <title>Registration form</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+        <link rel="stylesheet" href="http://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=josefin+sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <style>
+#reg-form{
+    width: 90%;
+    min-height: 90vh;
+    padding: 5%;
+    background-image: linear-gradient(rgba(0, 8, 51,0.9),rgba(0, 8, 51,0.1)), url(images/valley.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+form{
+    background: linear-gradient(rgba(0, 8, 51,0.7),rgba(0, 8, 51,1));
+    padding: 30px;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+ }
+ form input, form textarea{
+    border: 0;
+    margin: 15px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.7);
+    outline: none;
+    font-size: 15px;
+}
+form select, form textarea{
+    border: 0;
+    margin: 5px;
+    padding: 2px;
+    background: rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+button{
+    background-color: #088178;
+    border-radius: 5px;
+    padding: 5px 10px 10px;
+    color: #fff;
+    font-size: 12px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    margin: 10px auto 0;
+    border-radius: 20px;
+
+}
+h3{
+    color: #088178;
+    font-size: 25px;
+    font-weight: 600;
+}
+.cond{
+    font-size: 13px;
+    color: #fff;
+    }
+
+label{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 30px 0;
+    font-size: 20px;
+}
+ 
+@media (max-width:499px) {
+    form input, form textarea{
+    border: 0;
+    margin: 15px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    outline: none;
+    font-size: 15px;
+}
+form select, form textarea{
+    border: 0;
+    margin: 15px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    outline: none;
+}
+label{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 20px 0;
+    font-size: 23px;
+}
+form{
+    display: block;
+    background: linear-gradient(rgba(0, 8, 51,0.9),rgba(0, 8, 51, 0.6));
+    padding: 30px;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    height: 100%;
+ }
+}
+
+
+        </style>
+    </head>
+    <body>
+
+        <div id="reg-form">
+            <form action="registration.php" method="post">
+                <h3>Registration Form</h3>
+                <label for="Fist Name">First Name:</label>
+                <input type="text" name="firstname" placeholder="First Name" required>
+                <label for="last Name">Last Name:</label>
+                <input type="text" name="lastname" placeholder="Last Name" required>
+               
+                <div>
+                    <label for="gender">Gender:></label>
+                    <label for="gender-male">Male</label>
+                    <input type="radio" name="genderchoice1" value="choice-1">
+
+                    <label for="gender-female">Female</label>
+                    <input type="radio" name="genderchoice2" value="choice-1">
+
+                    <label for="gender-other">Others</label>
+                    <input type="radio" name="genderchoice3" value="choice-1">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Your email Address" required>
+                </div>
+                <label for="month">Date Of Birth:</label>
+                <label for="month">Month:</label>
+                <select name="month" id="">
+                    <option value="0" selected disabled></option>
+                    <option value="jan">January</option>
+                    <option value="feb">febuary</option>
+                    <option value="mar">march</option>
+                    <option value="april">April</option>
+                    <option value="mAY">May</option>
+                    <option value="Jun">June</option>
+                    <option value="July">July</option>
+                    <option value="Aug">August</option>
+                    <option value="Sept">September</option>
+                    <option value="oct">October</option>
+                    <option value="nov">November</option>
+                    <option value="dec">December</option>
+                </select>
+
+                <label for="Day">Date</label>
+                <select name="day" id="">
+                    <option value="0" selected disabled></option>
+                    <option value="jan">1</option>
+                    <option value="feb">2</option>
+                    <option value="mar">3</option>
+                    <option value="april">4</option>
+                    <option value="mAY">5</option>
+                    <option value="Jun">6</option>
+                    <option value="July">7</option>
+                    <option value="Aug">8</option>
+                    <option value="Sept">9</option>
+                    <option value="oct">10</option>
+                    <option value="nov">11</option>
+                    <option value="dec">12</option>
+                    <option value="jan">13</option>
+                    <option value="feb">14</option>
+                    <option value="mar">15</option>
+                    <option value="april">16</option>
+                    <option value="mAY">16</option>
+                    <option value="Jun">17</option>
+                    <option value="July">18</option>
+                    <option value="Aug">19</option>
+                    <option value="Sept">20</option>
+                    <option value="oct">21</option>
+                    <option value="nov">22</option>
+                    <option value="dec">23</option>
+                    <option value="jan">24</option>
+                    <option value="feb">25</option>
+                    <option value="mar">26</option>
+                    <option value="april">27</option>
+                    <option value="mAY">28</option>
+                    <option value="Jun">29</option>
+                    <option value="July">30</option>
+                    <option value="Aug">31</option>
+                </select>
+
+                <label for="year">Year:</label>
+                <input type="number" name="date" selected >
+               
+                <div>
+                <label for="education">Level Of Education:</label>
+                <select name="education" id="">
+                    <option value="0" selected disabled></option>
+                    <option value="prim">Primary</option>
+                    <option value="sec">Secondary</option>
+                    <option value="high">High School</option>
+                    <option value="uni">University</option>
+                </select>
+                <label for="training">Training Programs:</label>
+                <select name="traning" id="">
+                    <option value="0" selected disabled></option>
+                    <option value="mso">microsoft Office</option>
+                    <option value="ecm">Ecommerce</option>
+                    <option value="it">IT Essentials</option>
+                    <option value="web">Web Developement</option>
+                    <option value="graphic">Graphic designer</option>
+                    <option value="word">Wordpress</option>
+                    <option value="photo">PhotoShop</option>
+                    <option value="uni">Digital Marketing</option>
+                </select>
+            </div>
+            <label for="agree" class="cond">i agree to all the conditions of the fom</label>
+            <input type="checkbox" name="agree">
+
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
