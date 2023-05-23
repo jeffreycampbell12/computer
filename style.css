@@ -783,7 +783,7 @@ flex-wrap: wrap;
 .lorem img{
 width: 180px;
 height: 160px;
-border-radius: 45px;
+border-radius: 40px;
 padding: 20px 20px;
 margin: 5px;
 }
@@ -849,6 +849,23 @@ transition: 0.2s ease;
     background-color: #fff2e5;
 }
 /* feare ends*/
+
+/* partner start*/
+ .gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px 0;
+ }
+
+ .gallery img {
+    flex-wrap: wrap;
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
+    border-radius: 50%;
+ }
+ /* partner ends*/
 
     /* testimonials start*/
     #testimonials{
