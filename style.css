@@ -129,7 +129,7 @@ button.normal{
 }
 
 #hero{
-    background-image: url(image/confident-businessman-extending-hand-handshake-greeting-business-partner-smiling-standing-ov_1258-111747.jpg);
+    background-image: url(image/hope-2);
     height: 70vh;
     width: 100%;
     background-size: cover;
@@ -1060,6 +1060,11 @@ transition: 0.2s ease;
 
 
  @media (max-width:477px) {
+     
+     body p{
+         font-size: 16px;
+        color: #111;
+    }
     p{
         font-family: Arial, Helvetica, serif;
         font-size: 20px;
@@ -1132,6 +1137,11 @@ transition: 0.2s ease;
         padding: 15px;
         font-size: 25px;
     }
+     .Welcome  h2{
+        line-height: 1em;
+        font-size: 25px;
+    }
+     
     p {
         font-size: 18px;
         color: #465b52;
