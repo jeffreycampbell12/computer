@@ -1073,6 +1073,9 @@ transition: 0.2s ease;
     .testimonials-box h1{
         font-size: 1.4rem;
     }
+     .God {
+        text-align: justify;
+    }
  }
 
 
