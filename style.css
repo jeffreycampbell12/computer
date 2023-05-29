@@ -412,7 +412,6 @@ footer .follow i{
     border-radius: 10px;
 }
 .timoh-1 p{
-    margin-left: 15px;
     line-height: 2em;
 }
 .timoh-2 h4{
@@ -988,6 +987,9 @@ transition: 0.2s ease;
     }
  /* medai query stats*/
  @media (max-width:799px) {
+     br{
+         display: none;
+         {
     #navbar{
         display: flex;
         flex-direction: column;
@@ -1085,6 +1087,10 @@ transition: 0.2s ease;
 
 
  @media (max-width:477px) {
+     
+      br{
+         display: none;
+         {
      
      body p{
          font-size: 16px;
