@@ -393,6 +393,11 @@ footer .follow i{
     color: #088178;
     font-weight: 100;
 }
+ .mugri p{
+        line-height: 2em;
+        text-align: justify;
+    }
+
 .timoh-1{
     display: flex;
     justify-content: space-between;
