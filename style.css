@@ -132,7 +132,7 @@ button.normal{
 }
 
 #hero{
-    background-image: url(image/hope-2.jpg);
+    background-image:  linear-gradient(rgba(0, 8, 51,0.3),rgba(0, 8, 51,0.9)), url(image/hope-2.jpg);
     height: 70vh;
     width: 100%;
     background-size: cover;
@@ -241,7 +241,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: #e3efe3;
+    background: linear-gradient(rgba(3, 5, 20, 1),rgba(4, 7, 24, 1)), black;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
 }
 
@@ -1180,6 +1180,11 @@ transition: 0.2s ease;
     padding: 20px;
         justify-content: space-between;
     }
+     #lol-1 h2{
+        font-size: 22px;
+        font-weight: 600;
+    }
+     
     .lorem img {
         width: 155px;
         margin: 0 0 15px 0;
