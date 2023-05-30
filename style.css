@@ -75,7 +75,7 @@ button.normal{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #e3efe3;
+    background: linear-gradient(rgba(0, 8, 51,0.6),rgba(0, 8, 51,0.5)), transparent;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
     z-index: 999;
     position: sticky;
