@@ -812,7 +812,7 @@ flex-wrap: wrap;
 display: flex;
 width: 180px;
 height: 160px;
-border-radius: 45px;
+border-radius: 40px;
 padding: 20px 20px;
 margin: 5px;
 }
@@ -1255,6 +1255,9 @@ transition: 0.2s ease;
     }
      
      .col{
+         color: #fff;
+     }
+     address{
          color: #fff;
      }
     
