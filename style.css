@@ -1025,7 +1025,7 @@ transition: 0.2s ease;
         align-items: center;
     } 
     #mobile i{
-        color: #1a1a1a;
+        color: #fff;
         font-size: 24px;
         padding-left: 20px;
     }
