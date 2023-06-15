@@ -1094,7 +1094,7 @@ transition: 0.2s ease;
 
  @media (max-width:477px) {
     body{
-        background: linear-gradient(rgba(3, 5, 20, 1),rgba(4, 7, 24, 1)), black;
+        background: black;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
      }
      body p{ 
