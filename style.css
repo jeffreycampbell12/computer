@@ -1097,6 +1097,9 @@ transition: 0.2s ease;
         background: linear-gradient(rgba(3, 5, 20, 1),rgba(4, 7, 24, 1)), black;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
      }
+     body p{ 
+         color: #fff;
+     }
      
    body h2{
         color: #111;
