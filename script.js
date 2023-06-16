@@ -35,7 +35,6 @@ function reveal(){
     }
 }
 
-<script>
     function myFunction() {
       var element = document.body;
       element.classList.toggle("light-mode");
@@ -46,4 +45,3 @@ function reveal(){
         button.innerHTML = "Switch to Light Mode";
       }
     }
-  </script>
