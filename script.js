@@ -34,3 +34,16 @@ function reveal(){
     }
     }
 }
+
+<script>
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("light-mode");
+      var button = document.getElementById("myButton");
+      if (element.classList.contains("light-mode")) {
+        button.innerHTML = "Switch to Dark Mode";
+      } else {
+        button.innerHTML = "Switch to Light Mode";
+      }
+    }
+  </script>
