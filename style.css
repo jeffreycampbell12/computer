@@ -1100,6 +1100,9 @@ transition: 0.2s ease;
     background-color: white;
     color: black;
   }
+      .light-mode p{
+     color: #000;
+    }
      body p{ 
          color: #fff;
      }
