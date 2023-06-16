@@ -1094,10 +1094,6 @@ transition: 0.2s ease;
 
 
  @media (max-width:477px) {
-    body{
-        background: black;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-     }
      body p{ 
          color: #fff;
      }
