@@ -178,12 +178,9 @@ button{
     padding: 13px 30px;
     border-radius: 30px;
     transition: .4s;
-}
-button:hover{
-    background-color: transparent;
-    border: 2px solid #f9004d;
     cursor: pointer;
 }
+
 /* neleter*/
 #newletter .form{
     display: flex;
@@ -1094,6 +1091,14 @@ transition: 0.2s ease;
 
 
  @media (max-width:477px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  .light-mode {
+    background-color: white;
+    color: black;
+  }
      body p{ 
          color: #fff;
      }
@@ -1101,10 +1106,6 @@ transition: 0.2s ease;
    body h2{
         color: #111;
     }
-     .light-mode {
-    background-color: white;
-    color: black;
-  }
     
     p{
         font-family: Arial, Helvetica, serif;
