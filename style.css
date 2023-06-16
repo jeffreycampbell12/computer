@@ -170,6 +170,7 @@ button.normal{
 }
 
 button{
+    display: none;
     background-color: #f9004d;
     color: white;
     text-decoration: none;
@@ -1111,6 +1112,9 @@ transition: 0.2s ease;
         font-family: Arial, Helvetica, serif;
         font-size: 20px;
     }
+     button{
+         display: flex;
+         {
     #header {
         padding: 10px 30px;
     }
