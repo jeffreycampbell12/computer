@@ -35,11 +35,24 @@ function reveal(){
     }
 }
 
+// Check for saved theme in local storage
+    if (localStorage.getItem("theme")) {
+      var theme = localStorage.getItem("theme");
+      document.body.classList.add(theme);
+      updateButtonText(theme);
+    }
+
     function myFunction() {
       var element = document.body;
       element.classList.toggle("light-mode");
+      var theme = element.classList.contains("light-mode") ? "light-mode" : "";
+      localStorage.setItem("theme", theme); // Save theme to local storage
+      updateButtonText(theme);
+    }
+
+    function updateButtonText(theme) {
       var button = document.getElementById("myButton");
-      if (element.classList.contains("light-mode")) {
+      if (theme === "light-mode") {
         button.innerHTML = "Switch to Dark Mode";
       } else {
         button.innerHTML = "Switch to Light Mode";
